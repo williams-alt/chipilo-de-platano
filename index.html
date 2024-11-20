@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Recursos Bootstrap</title>
+    <link rel="stylesheet" href="Bootstrap v4.5.2.css">
+    <!-- Con una carpeta SRC donde se encuentra los archivos.css 
+    <link rel="stylesheet" href="src/Bootstrap v4.5.2.css"> -->
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Nombre del Sitio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Características</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Encabezado -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">PLÁTANOS CRISPS</h1>
+        <p class="lead">emprendimiento productivo derivados del plátano</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Más</a>
+    </header>
+
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>¿QUE ES PLÁTANOS CRISPS?</h2>
+                <p>es un snack de platano verde frito</p>
+                <p>Puedes agregar más contenido aquí, según sea preferible o necesario.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>PEDIDOS AL MAYOR Y MENOR AL:</h2>
+                <p>72168464</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <h1 class="text-center"> Imagenes con trancisión</h1>
+            <div class="carousel-item active">
+                <img src="himagen de chipilo.jpeg" class="d-block w-100" alt="himagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="chipilo de platano.jpeg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="chipilo de platano 3.jpeg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Sección de características -->
+    <div class="container my-5">
+        <h2 class="text-center">Características</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SABOR:</h5>
+                        <p class="card-text">
+                            <li>Versión Clásica:</li>
+                            <ul>Sabor natural y ligero del plátano verde con un toque de sal para resaltar su sabor.</ul>
+                            <li>Picante:</li>
+                            <ul>Sabor similar al clásico, pero con un toque picante añadido mediante una mezcla especial de especias que proporciona un agradable calor sin ser excesivo.</ul>
+                            <li>Versión charque:</li> 
+                            <ul>sabor similar al clásico pero con pequeños trozos de charque para un agradable sabor</ul>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">INGREDIENTES:</h5>
+                        <p class="card-text"></p>
+                        <li>Plátano Verde:</li>
+                        <ul>La base principal del chipilo, proporcionando el sabor y la textura.</ul>
+                        <li>Aceite:</li>
+                        <ul>Utilizamos aceite de coco o de palma para freír, con un sabor neutral que complementa el plátano verde.</ul>
+                        <li>Sal:</li>
+                        <ul>Sal marina para realzar el sabor del chipilo.</ul>
+                        <li>Especias Picantes para la versión picante y charque para la versión de charque </li>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">APARIENCIA</h5>
+                        <p class="card-text"></p>
+                        <li>Color:</li>
+                        <ul>Dorado claro, con variaciones naturales en función del proceso de fritura.</ul>
+                        <li>Forma:</li>
+                        <ul>Rodajas finas y uniformes para maximizar el crujido.</ul>
+                        <li>Tamaño:</li>
+                        <ul>Chips de aproximadamente 30-40 mm de diámetro, ideal para un bocado perfecto.</ul>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 Mi Sitio. Todos los derechos reservados.</p>
+    </footer>
+    <script src="jQuery.min.js"></script>
+    <script src="Bootstrap v4.5.2.js"></script>
+    <!-- Con una carpeta src donde se encuentra los archivos.js
+    <script src="src/jQuery.min.js"></script> 
+    <script src="src/Bootstrap v4.5.2.js"></script> -->
+</body>
+
+</html>
